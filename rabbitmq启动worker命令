@@ -1,0 +1,18 @@
+
+# 启动rabbit_mq
+# os.popen(rabbitmq-plugins enable rabbitmq_management).read()
+# os.popen(start rabbitmq-server.bat).read()
+
+
+
+# 获取rabbit_mq中对应队列的消息
+#
+# # 获取web/h5_queue队列消息
+# python manage.py celery worker -B -l info -Q web/h5
+# os.popen(python manage.py celery worker -B -l info -Q web/h5).read()
+# # 获取requests_queue队列消息
+# python manage.py celery worker -B -l info -Q requests
+# os.popen(python manage.py celery worker -B -l info -Q requests).read()
+# # 获取default队列消息
+# python manage.py celery worker -B -l info -Q default
+# os.popen(python manage.py celery worker -B -l info -Q default).read()

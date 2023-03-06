@@ -1,0 +1,99 @@
+日志级别：WARNING,生成时间： 2023-02-01 14:36:54,323 ,模块：log ,进程：15776,线程：12224 , 消息：Not Found: /favicon.ico
+日志级别：WARNING,生成时间： 2023-02-01 14:40:22,803 ,模块：log ,进程：9684,线程：16184 , 消息：Not Found: /favicon.ico
+日志级别：WARNING,生成时间： 2023-02-01 20:02:49,683 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase/running/81
+日志级别：WARNING,生成时间： 2023-02-01 20:03:01,354 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase/running/81
+日志级别：WARNING,生成时间： 2023-02-01 20:03:06,222 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/project
+日志级别：WARNING,生成时间： 2023-02-01 20:03:06,228 ,模块：log ,进程：15652,线程：10824 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase
+日志级别：WARNING,生成时间： 2023-02-01 20:03:06,235 ,模块：log ,进程：15652,线程：17280 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/browser
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,065 ,模块：log ,进程：15652,线程：17280 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/project
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,068 ,模块：log ,进程：15652,线程：10824 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,071 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/browser
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,303 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/project
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,306 ,模块：log ,进程：15652,线程：10824 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase
+日志级别：WARNING,生成时间： 2023-02-01 20:03:07,308 ,模块：log ,进程：15652,线程：17280 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/browser
+日志级别：WARNING,生成时间： 2023-02-01 20:03:18,661 ,模块：log ,进程：15652,线程：17280 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/project
+日志级别：WARNING,生成时间： 2023-02-01 20:03:18,666 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/result
+日志级别：WARNING,生成时间： 2023-02-01 20:03:20,551 ,模块：log ,进程：15652,线程：17280 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/project
+日志级别：WARNING,生成时间： 2023-02-01 20:03:20,554 ,模块：log ,进程：15652,线程：10824 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/browser
+日志级别：WARNING,生成时间： 2023-02-01 20:03:20,556 ,模块：log ,进程：15652,线程：14208 , 消息：Forbidden (CSRF token missing or incorrect.): /api/v1/testcase
+日志级别：ERROR,生成时间： 2023-02-01 20:07:35,056 ,模块：log ,进程：1584,线程：4448 , 消息：Internal Server Error: /api/v1/testcase/running/81
+Traceback (most recent call last):
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 186, in SplitTaskRunning
+    Step(loginStep.get("keywordId"), loginStep.get("values")).perform(driver, loginParameter, host, split, login)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 387, in perform
+    self.sys_method__run(driver, tuple(values))
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 425, in sys_method__run
+    running(value)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 420, in running
+    method(*args)
+  File "E:\pycharm\Autotest_platform\Autotest_platform\PageObject\Base.py", line 26, in open_url
+    self.driver.get(url)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=109.0.5414.120)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharm\Autotest_platform\Autotest_platform\helper\Http.py", line 51, in request
+    return fn(*args, **kwargs)
+  File "E:\pycharm\Autotest_platform\Product\views.py", line 985, in test
+    SplitTask(r.id, 0)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 56, in SplitTask
+    SplitTaskRunning(sr.id)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 190, in SplitTaskRunning
+    split.remark = "初始化登陆失败</br>登陆名称=" + str(login.name) + " , </br>错误信息=" + ("".join(e.args))
+TypeError: sequence item 1: expected str instance, NoneType found
+日志级别：ERROR,生成时间： 2023-02-01 20:09:24,526 ,模块：log ,进程：2704,线程：3708 , 消息：Internal Server Error: /api/v1/testcase/running/81
+Traceback (most recent call last):
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 186, in SplitTaskRunning
+    Step(loginStep.get("keywordId"), loginStep.get("values")).perform(driver, loginParameter, host, split, login)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 387, in perform
+    self.sys_method__run(driver, tuple(values))
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 425, in sys_method__run
+    running(value)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 420, in running
+    method(*args)
+  File "E:\pycharm\Autotest_platform\Autotest_platform\PageObject\Base.py", line 26, in open_url
+    self.driver.get(url)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=109.0.5414.120)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pycharm\Autotest_platform\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharm\Autotest_platform\Autotest_platform\helper\Http.py", line 51, in request
+    return fn(*args, **kwargs)
+  File "E:\pycharm\Autotest_platform\Product\views.py", line 985, in test
+    SplitTask(r.id, 0)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 56, in SplitTask
+    SplitTaskRunning(sr.id)
+  File "E:\pycharm\Autotest_platform\Product\tasks.py", line 190, in SplitTaskRunning
+    split.remark = "初始化登陆失败</br>登陆名称=" + str(login.name) + " , </br>错误信息=" + ("".join(e.args))
+TypeError: sequence item 1: expected str instance, NoneType found
+日志级别：WARNING,生成时间： 2023-02-01 20:47:49,855 ,模块：log ,进程：1652,线程：3344 , 消息：Not Found: /favicon.ico

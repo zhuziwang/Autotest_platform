@@ -1,0 +1,4 @@
+日志级别：WARNING,生成时间： 2023-02-15 21:12:05,006 ,模块：log ,进程：9208,线程：6536 , 消息：Not Found: /static/assets/CSS/login.css
+日志级别：WARNING,生成时间： 2023-02-15 21:12:05,090 ,模块：log ,进程：9208,线程：9300 , 消息：Not Found: /static/assets/font-awesome/fonts/fontawesome-webfontba72.woff
+日志级别：WARNING,生成时间： 2023-02-15 21:12:05,114 ,模块：log ,进程：9208,线程：5100 , 消息：Not Found: /static/assets/font-awesome/fonts/fontawesome-webfontba72.ttf
+日志级别：WARNING,生成时间： 2023-02-15 21:12:05,134 ,模块：log ,进程：9208,线程：15832 , 消息：Not Found: /favicon.ico

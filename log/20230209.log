@@ -1,0 +1,13 @@
+日志级别：WARNING,生成时间： 2023-02-09 13:40:31,216 ,模块：log ,进程：14820,线程：10336 , 消息：Not Found: /favicon.ico
+日志级别：WARNING,生成时间： 2023-02-09 15:03:28,522 ,模块：log ,进程：9508,线程：8868 , 消息：Not Found: /admin/keyword/api/v1/keyword/keywordpackage
+日志级别：WARNING,生成时间： 2023-02-09 15:03:52,576 ,模块：log ,进程：9508,线程：3816 , 消息：Not Found: /admin/keyword/api/v1/keyword/keywordpackage
+日志级别：WARNING,生成时间： 2023-02-09 15:09:26,489 ,模块：log ,进程：5508,线程：1272 , 消息：Not Found: /admin/keyword/api/v1/keyword/keywordpackage
+日志级别：WARNING,生成时间： 2023-02-09 19:32:32,198 ,模块：log ,进程：7452,线程：14536 , 消息：Not Found: /api/v1/keyword/keywordclazz/undefined
+日志级别：WARNING,生成时间： 2023-02-09 19:33:07,388 ,模块：log ,进程：7452,线程：11964 , 消息：Not Found: /api/v1/keyword/keywordclazz/undefined
+日志级别：WARNING,生成时间： 2023-02-09 19:33:12,455 ,模块：log ,进程：7452,线程：11964 , 消息：Not Found: /api/v1/keyword/keywordclazz/undefined
+日志级别：WARNING,生成时间： 2023-02-09 19:36:03,052 ,模块：log ,进程：13148,线程：10508 , 消息：Not Found: /api/v1/keyword/keywordclazz/undefined
+日志级别：WARNING,生成时间： 2023-02-09 19:47:48,278 ,模块：log ,进程：11516,线程：3632 , 消息：Not Found: /api/v1/keyword/keywordmethod1
+日志级别：WARNING,生成时间： 2023-02-09 19:48:42,753 ,模块：log ,进程：11516,线程：3632 , 消息：Not Found: /api/v1/keyword/keywordmethodundefined
+日志级别：WARNING,生成时间： 2023-02-09 19:48:43,951 ,模块：log ,进程：11516,线程：3632 , 消息：Not Found: /api/v1/keyword/keywordmethod1
+日志级别：WARNING,生成时间： 2023-02-09 19:52:12,271 ,模块：log ,进程：14528,线程：4608 , 消息：Not Found: /api/v1/keyword/keywordclazz/undefined
+日志级别：WARNING,生成时间： 2023-02-09 19:53:27,649 ,模块：log ,进程：8916,线程：5940 , 消息：Not Found: /favicon.ico
