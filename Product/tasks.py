@@ -183,7 +183,7 @@ def SplitTaskRunning(splitResult_id):
             for loginStep in loginSteps:
                 try:
                     # 执行Step方法和该方法下的perform方法, loginParameter: 登陆前置条件的参数化
-                    Step(loginStep.get("keywordId"), loginStep.get("values")).perform(driver, loginParameter, host, split, login)
+                    Step(loginStep.get("keywordId"), loginStep.get("values")).perform(driver, loginParameter, host)
                 except Exception as e:
                     split.loginStatus = 2
                     split.status = 50
@@ -226,7 +226,7 @@ def SplitTaskRunning(splitResult_id):
     index = 1
     for step in steps:
         try:
-            Step(step.get("keywordId"), step.get("values")).perform(driver, parameter, host, split, login)
+            Step(step.get("keywordId"), step.get("values")).perform(driver, parameter, host)
             index = index + 1
         except RuntimeError as re:
             split.status = 40
@@ -347,7 +347,7 @@ class Step:
         # 验证login表下的step子字段下的values的内容是否正确，返回值为一个obj列表
         self.params = [Params(value) for value in values]
 
-    def perform(self, driver, parameter, host, split, login):
+    def perform(self, driver, parameter, host):
         """
         :param driver: 已启动的浏览器的driver
         :param parameter: 参数化内容
