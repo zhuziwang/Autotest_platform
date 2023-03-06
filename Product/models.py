@@ -377,6 +377,7 @@ class Browser(models.Model):
                 options.add_argument('--no-sandbox')
                 options.add_argument('--disable-dev-shm-usage')
                 browser = webdriver.Chrome(chrome_options=options)
+            browser.implicitly_wait(5)
             browser.maximize_window()
             return browser
         else:
